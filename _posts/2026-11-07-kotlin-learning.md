@@ -25,5 +25,12 @@ tags: [tutorial, beginners]
     'a'.uppercase() // 'A'
 
 
+## Heap ops
+##### Initialisation
+    val pq = PriorityQueue<Int>(compareBy{it}) // Ascending order
+    val pq = PriorityQueue<Int>(compareByDescending{it}) // Descending order
+    val pq = PriorityQueue<Pair<Int, Int>>(compareBy{it.first}) // Ascending wrt first
+
+
 
  
