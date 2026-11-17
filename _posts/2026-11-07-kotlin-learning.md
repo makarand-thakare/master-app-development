@@ -15,6 +15,11 @@ tags: [tutorial, beginners]
     val str = "abc"
     val ch: Char = str[0]
 
+##### lowercase string to uppercase
+    "abc".uppercase() // "ABC"
+##### uppercase string to lowercase
+    "ABC".lowercase() // "abc"
+
 ## Character ops
 
 ##### Covert Char to ascii
